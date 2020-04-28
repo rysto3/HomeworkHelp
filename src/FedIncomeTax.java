@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FedIncomeTax
 {
     public static void main(String[] args) {
-        double tax = 0, income = 0;
+        double tax=0 ,income;
         int status;
 
         Scanner scan = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class FedIncomeTax
             } else if (income >= 500001) {
                 tax = 150690 + (income - 500000) * .37;
             }
-            if (status == 2) {
+        }else if (status == 2) {
                 if (income >= 0 && income <= 19050) {
                     tax = income * .10;
                 } else if (income >= 19051 && income <= 77400) {
@@ -45,11 +45,9 @@ public class FedIncomeTax
                     tax = 150690 + (income - 600000) * .37;
                 }
             } else {
-                System.out.println("\n Invalid Entry! Try again");
+                System.out.println("\nInvalid Entry! Try again");
                 System.out.println(status);
-                tax = 0;
             }
-            System.out.printf("\n Your income tax is%5.2f", tax);
-        }
+            System.out.printf("\nYour income tax is %5.2f", tax);
     }
 }
