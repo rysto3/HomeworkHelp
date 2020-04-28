@@ -46,7 +46,6 @@ public class FedIncomeTax
                 }
             } else {
                 System.out.println("\nInvalid Entry! Try again");
-                System.out.println(status);
             }
             System.out.printf("\nYour income tax is %5.2f", tax);
     }
