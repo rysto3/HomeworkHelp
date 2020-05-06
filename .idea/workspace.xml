@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b02be8-e5bb-4925-a122-22c568ae91d0" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/HailstoneNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PositiveIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeworkHelp/FedIncomeTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeworkHelp/FedIncomeTax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FedIncomeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FedIncomeTax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HailstoneNumbers">
     <configuration name="FedIncomeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FedIncomeTax" />
       <module name="HomeworkHelp" />
@@ -49,8 +52,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HailstoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HailstoneNumbers" />
+      <module name="HomeworkHelp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PositiveIntegers" />
+      <module name="HomeworkHelp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomNumberGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomNumberGenerator" />
+      <module name="HomeworkHelp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HailstoneNumbers" />
+        <item itemvalue="Application.PositiveIntegers" />
+        <item itemvalue="Application.RandomNumberGenerator" />
         <item itemvalue="Application.FedIncomeTax" />
       </list>
     </recent_temporary>
@@ -66,6 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588032341057</updated>
       <workItem from="1588032349816" duration="2157000" />
+      <workItem from="1588215150966" duration="8071000" />
+      <workItem from="1588726650303" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1588034231223</created>
@@ -97,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
@@ -107,25 +137,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1010" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588032473132" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1588034498322">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1588730527073">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588034498322" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1588034498322">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1588730527073" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1588730527072">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588034498322" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1588034498321">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1588730527072" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1588730527069">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588034498321" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1588034498322">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1588730527069" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1588730527073">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588034498322" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1588730527073" />
     <state x="731" y="165" key="SettingsEditor" timestamp="1588033515484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588033515484" />
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup" timestamp="1588729738961">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/0.23.1440.824@0.23.1440.824" timestamp="1588729738961" />
   </component>
 </project>
